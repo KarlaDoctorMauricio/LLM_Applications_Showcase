@@ -81,6 +81,35 @@ This project enables interaction with multiple language models (**OpenAI GPT, Cl
 ## 🤖💬4. Multi-Model Response System
 This repository presents a **multi-model response system** that integrates four different language models (**GPT, Claude, Gemini, and Ollama**) to generate responses based on a given system prompt. The responses from each model are combined to provide a well-rounded answer, utilizing the strengths of each individual model.
 
+The system leverages different personality traits based on the MBTI (Myers-Briggs Type Indicator) framework to create distinct response patterns for each LLM:
+
+#### Claude: Intuitive (N) and Thinking (T)
+
+- Focuses on abstract patterns and theoretical frameworks
+- Provides logical, systematic analysis
+- Excels at complex problem-solving and conceptual understanding
+
+
+#### OpenAI (GPT): Intuitive (N) and Feeling (F)
+
+- Combines innovative thinking with emotional intelligence
+- Offers creative solutions while considering human impact
+- Specializes in empathetic and context-aware responses
+
+
+#### Gemini: Observant (S) and Judging (J)
+
+- Emphasizes practical, fact-based approaches
+- Provides structured and methodical solutions
+- Excels at organized and systematic problem-solving
+
+
+#### Ollama: Observant (S) and Prospecting (P)
+
+- Focuses on concrete details and adaptable solutions
+- Offers flexible and practical approaches
+- Specializes in hands-on and experiential problem-solving
+
 ### Key Features
 The system gathers conversations from different LLMs (Large Language Models), specifically GPT, Claude, Gemini, and Ollama. Each model has a tailored system prompt to define the assistant's tone and behavior. These models generate responses based on the input system prompt and subsequent exchanges from each model, simulating a conversation with varying perspectives.
 
