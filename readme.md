@@ -8,7 +8,7 @@ This repository showcases a collection of interactive applications powered by mu
 
 By combining web scraping and Gradio interfaces, this project demonstrates the flexibility of LLMs in various practical applications, from generating dynamic content to real-time customer engagement.
 
-# Requirements
+## ⚙️ Requirements
 
 To set up this project, follow the instructions below.
 
@@ -43,10 +43,10 @@ To ensure that sensitive files like your .env are not uploaded to GitHub, create
 ```
 This ensures that the .env file is excluded from version control, keeping your API keys secure.
 
-# 1. Sales Chatbot Powered by Store Catalog
+## 💬1. Sales Chatbot Powered by Store Catalog
 This project implements a sales chatbot supported by a product catalog from a footwear store. It uses natural language processing (NLP) techniques and an OpenAI model to provide dynamic responses to customers, helping them find the perfect products based on their queries. The system also handles responses for unavailable products, offering alternatives that better fit the customer's needs.
 
-## Key Features
+### Key Features
 The Sales Chatbot Powered by Store Catalog is an automated solution for interacting with customers of an online footwear store. It uses a model trained with examples of successful conversations and examples of handling unavailable products. The chatbot accesses a product catalog to provide details on items, prices, and alternatives, enhancing the customer experience.
 
 - Real-time interaction: The chatbot processes user messages and responds dynamically.
@@ -54,34 +54,34 @@ The Sales Chatbot Powered by Store Catalog is an automated solution for interact
 - Unavailable product handling: If a customer inquires about a product not in the catalog, the chatbot offers friendly responses and suggests available alternatives.
 - Sales optimization: The chatbot is designed to present products in an attractive and effective way, promoting the sale of available items.
 
-[Chat interface](1_llms.png)
+![Chat interface](1_llms.png)
 
-# 2. Web Scraping & Language Model Brochure Generator with Gradio
+## 📣2. Web Scraping & Language Model Brochure Generator with Gradio
 This project is a **web scraping tool** that fetches content from a company’s website and generates a **brochure** using various language models such as GPT, Claude, Gemini, and Ollama. The output is presented in a **Gradio interface** for easy user interaction. The generated brochure is provided in Markdown format, summarizing key aspects of the company, including its culture, customers, careers, and available courses/packages.
 
-## Key Features
+### Key Features
 
 - **Web Scraping:** Extracts content from a specified company website.
 - **Multi-Model Support:** Uses various language models (GPT, Claude, Gemini, Ollama) to generate a brochure based on scraped content.
 - **Markdown Output:** The generated brochure is outputted in Markdown format.
 - **Gradio Interface:** A simple user interface to interact with the tool and select the preferred language model.
 
-[Brochure generator interface](2_llms.png)
+![Brochure generator interface](2_llms.png)
 
-# 3. Multi-Model Streaming Response Interface
+## 🖥️💻 3. Multi-Model Streaming Response Interface
 This project enables interaction with multiple language models (**OpenAI GPT, Claude, Gemini, and Ollama**) through a real-time streaming interface (**Gradio**). The user can input a prompt and select one of the available models to generate a response in a friendly tone.
 
-## Key Features
+### Key Features
 - Real-time streaming responses: All models return responses as they are generated, allowing for a smoother user experience.
 - Multiple model support: Choose between four powerful language models: OpenAI GPT, Claude, Gemini, and Ollama.
 - Friendly system prompt: All responses are framed with a friendly tone to make interactions more engaging.
 - Gradio interface: A user-friendly web interface powered by Gradio to interact with the models.
 
-[Multi-Model streaming response tnterface](3_llms.png)
-# 4. Multi-Model Response System
+![Multi-Model streaming response tnterface](3_llms.png)
+## 🤖💬4. Multi-Model Response System
 This repository presents a **multi-model response system** that integrates four different language models (**GPT, Claude, Gemini, and Ollama**) to generate responses based on a given system prompt. The responses from each model are combined to provide a well-rounded answer, utilizing the strengths of each individual model.
 
-## Key Features
+### Key Features
 The system gathers conversations from different LLMs (Large Language Models), specifically GPT, Claude, Gemini, and Ollama. Each model has a tailored system prompt to define the assistant's tone and behavior. These models generate responses based on the input system prompt and subsequent exchanges from each model, simulating a conversation with varying perspectives.
 
 - Multi-Model Integration: The system collects responses from GPT, Claude, Gemini, and Ollama, each offering distinct perspectives based on their predefined behavior prompts.
