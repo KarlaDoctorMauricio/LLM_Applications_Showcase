@@ -1,0 +1,8 @@
+openai
+anthropic
+google-generativeai
+ollama
+gradio
+python-dotenv
+requests
+beautifulsoup4
